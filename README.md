@@ -1,2 +1,0 @@
-# shynriu.github.io
-Portfolio
