@@ -1,30 +1,37 @@
+
+
 // script.js
 const backgroundElement = document.querySelector('.background');
-const circleElement = document.querySelector('.circle');
+const circleElement = document.querySelector('.circle1');
 const logoElement = document.querySelector('.logo');
 
 anime({
     targets: backgroundElement,
-    backgroundPositionX: '200%', // Move the background 200% to the right
-    duration: 100, // Animation duration in milliseconds
-    loop: true, // Loop the animation
-    easing: 'linear' // Linear easing for continuous movement
+    //make gradient background move
+    backgroundPositionX: 500,
+    //make background move
+    translateX: 500,
+    //make background scale
+    scale: 2,
+    //make background border
+    border: '2px solid #000',
+    //make background border radius
+    borderRadius: ['0%', '50%'],
+    //make background easing
+    easing: 'easeInOutQuad',
+    //make background duration
+    duration: 3000,
+    //make background delay
+    delay: 1000,
+    //make background loop
+    loop: true,
+    //make background direction
+    direction: 'alternate',
+    //make background autoplay
+    autoplay: true,
+    //make background end delay
+    endDelay: 1000,
+    //make background complete
+
 });
-
-
-
-/*anime({
-    targets: circleElement,
-    keyframes: [
-        {translateY: -40},
-        {translateX: 250},
-        {translateY: 40},
-        {translateX: 0},
-        {translateY: 0}
-    ],
-    duration: 4000, // Animation duration in milliseconds
-    loop: true, // Loop the animation
-    easing: 'easeOutElastic(1, .8)',
-});*/
-
 
