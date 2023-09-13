@@ -170,6 +170,7 @@ body::-webkit-scrollbar{
     left: -30rem; /* Start off-screen */
     bottom: -30rem;
     z-index: 1;
+    animation: circle1 3s ease 0s infinite alternate none;
 }
 
 
@@ -183,6 +184,8 @@ body::-webkit-scrollbar{
     left: -27.5rem; /* Start off-screen */
     bottom: -27.5rem;
     z-index: 1;
+    animation: circle1 4s ease 0s infinite alternate none;
+
 }
 
 .circle3 {
@@ -194,6 +197,7 @@ body::-webkit-scrollbar{
     top: -30rem; /* Start off-screen */
     right: -30rem;
     z-index: 1;
+    animation: circle1 3s ease 0s infinite alternate none;
 
 }
 .circle4 {
@@ -206,6 +210,7 @@ body::-webkit-scrollbar{
     top: -27.5rem; /* Start off-screen */
     right: -27.5rem;
     z-index: 1;
+    animation: circle1 4s ease 0s infinite alternate none;
 
 }
 
@@ -215,9 +220,10 @@ body::-webkit-scrollbar{
     transform: rotate(-45deg);
     transform-origin: right;
     position: fixed;
-    left: -15rem;
-    bottom: 40rem;
+    left: -20rem;
+    bottom: 70rem;
     z-index: 1;
+    animation: line1 7s ease 0s infinite alternate none;
 
 }
 
@@ -228,8 +234,9 @@ body::-webkit-scrollbar{
     transform-origin: right;
     position: fixed;
     left: -20rem;
-    bottom: 40rem;
+    bottom: 30rem;
     z-index: 1;
+    animation: line1 5s ease 0s infinite alternate none;
 
 }
 
@@ -242,6 +249,7 @@ body::-webkit-scrollbar{
     left: -30rem;
     bottom: 40rem;
     z-index: 1;
+    animation: line1 4s ease 0s infinite alternate none;
 
 }
 
@@ -254,6 +262,7 @@ body::-webkit-scrollbar{
     right: 0rem;
     top: 0rem;
     z-index: 1;
+    animation: line2 2s ease 0s infinite alternate none;
 
 }
 
@@ -263,9 +272,10 @@ body::-webkit-scrollbar{
     transform: rotate(-45deg);
     transform-origin: right;
     position: fixed;
-    right: 2rem;
-    top: -5rem;
+    right: 30rem;
+    top: -100rem;
     z-index: 1;
+    animation: line2 4s ease 0s infinite alternate none;
 
 }
 
@@ -275,9 +285,10 @@ body::-webkit-scrollbar{
     transform: rotate(-45deg);
     transform-origin: right;
     position: fixed;
-    right: -25rem;
-    top: -10rem;
+    right: 40rem;
+    top: -70rem;
     z-index: 1;
+    animation: line2 6s ease 0s infinite alternate none;
 
 }
 
@@ -310,6 +321,7 @@ body::-webkit-scrollbar{
         width: 30rem;
         left: -7.5rem;
         bottom: 20rem;
+
     }
     .line2 {
             width: 30rem;
@@ -336,5 +348,38 @@ body::-webkit-scrollbar{
             right: -12.5rem;
             top: -5rem;
         }
+}
 
+@keyframes circle1 {
+    0% {
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes line1 {
+    0% {
+        top: 50rem;
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        top: 51rem; /* Adjust this value to control vertical movement */
+        transform: rotate(-45deg); /* Keep the angle */
+    }
+}
+
+@keyframes line2 {
+    0% {
+        bottom: 82rem;
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        bottom: 83rem; /* Adjust this value to control vertical movement */
+        transform: rotate(-45deg); /* Keep the angle */
+    }
 }
