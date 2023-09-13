@@ -77,11 +77,14 @@
       <workItem from="1694442472083" duration="11947000" />
       <workItem from="1694464666838" duration="784000" />
       <workItem from="1694532851573" duration="9333000" />
-      <workItem from="1694594176784" duration="29612000" />
+      <workItem from="1694594176784" duration="36292000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
 </project>

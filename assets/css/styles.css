@@ -13,6 +13,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Kiona';
+    src: url('../fonts/kiona.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .timeline-with-icons {
     border-left: 1px solid hsl(0, 0%, 90%);
     position: relative;
@@ -63,29 +70,66 @@ body {
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
+
 p {
     color: white;
-    text-align: center;
 }
 
-li {
-    color: white;
-    font-family: 'Wavehaus';
-
-}
-
-h3 {
-    color: white;
-    font-family: 'Wavehaus';
-
-}
-
-h2 {
+.text {
+    font-family: 'Kiona';
+    font-size: 20px;
     color: white;
     text-align: center;
-    font-family: 'Wavehaus';
+}
+
+.timeline-title {
+    font-family: 'Kiona';
+    color: white;
+    font-size: 28px;
 
 }
+
+.timeline-date {
+    font-family: 'Kiona';
+    color: white;
+    font-size: 50px;
+
+}
+
+.timelime-location {
+    font-family: 'Kiona';
+    color: white;
+    font-size: 25px;
+
+}
+
+.timeline-description {
+    font-family: 'Kiona';
+    color: white;
+    font-size: 20px;
+
+}
+
+.text-left {
+    font-family: 'Kiona';
+    font-size: 20px;
+    color: white;
+}
+
+.modal-title {
+    font-family: 'Kiona';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.header-title {
+    font-family: 'Kiona';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
 
 body::-webkit-scrollbar{
     display: none;
