@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: 'Wavehaus';
+    src: url('../fonts/Wavehaus.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stuxiiy';
+    src: url('../fonts/Stuxiiy.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .timeline-with-icons {
     border-left: 1px solid hsl(0, 0%, 90%);
     position: relative;
@@ -28,9 +43,9 @@
 }
 
 body {
-    background: linear-gradient(132deg, #ff00d4, #00f7ff, #0015ff, #b20101);
+    background: linear-gradient(132deg, #252525, #9f9f9f);
     background-size: 400% 400%;
-    animation: BackgroundGradient 200s ease infinite;
+    animation: BackgroundGradient 200s ease infinite
 }
 
 @keyframes BackgroundGradient {
@@ -45,9 +60,39 @@ p {
 
 li {
     color: white;
+    font-family: 'Wavehaus';
+
 }
 
 h3 {
     color: white;
+    font-family: 'Wavehaus';
+
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Wavehaus';
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar-title {
+    color: white;
+    font-family: 'Stuxiiy';
+    font-size: 40px;
+    padding-right: 60px;
+}
+
+.navbar-links {
+    color: white;
+    font-family: 'Stuxiiy';
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.navbar-links:hover { color: #b6b6b6; text-decoration: none;}
