@@ -149,7 +149,7 @@ body::-webkit-scrollbar{
     padding-right: 20px;
 }
 
-.navbar-links:hover { color: #b6b6b6; text-decoration: none;}
+.navbar-links:hover { color: #dcdcdc; text-decoration: none;}
 
 .navbar {
     background-color: #7a786a;
